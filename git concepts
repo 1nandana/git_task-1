@@ -1,0 +1,51 @@
+Concepts of Git
+Repository (Repo):
+A Git repository serves as a centralized storage unit for files and their entire history. It enables easy collaboration and tracking of modifications made to files over time.
+
+Commit:
+A commit in Git represents a snapshot of changes made to files at a specific moment. Each commit is uniquely identified by a hash and includes information detailing the modifications made.
+
+Branch:
+A branch in Git is a divergent version of a repository, allowing changes to occur independently without affecting the primary codebase. Branches are commonly used for feature development or bug fixes.
+
+Merge:
+Merging in Git is the process of combining changes from different branches. It involves integrating the modifications made in one branch into another.
+
+Pull Request (PR):
+A pull request in Git is a proposal for changes to a repository. It facilitates collaborative review and discussion among team members before the proposed changes are merged into the main codebase.
+
+Basic Git Commands
+git init: Initializes a new Git repository.
+git add <file>: Adds changes in a file to the staging area.
+git commit -m "message": Commits staged changes with a descriptive message.
+git status: Displays the status of changes as untracked, modified, or staged.
+git log: Shows a history of commits.
+git branch: Lists all branches, highlighting the current branch.
+git merge <branch>: Integrates changes from a specified branch into the current branch.
+git pull: Fetches changes from a remote repository and merges them into the current branch.
+git push: Uploads local changes to a remote repository.
+
+Concepts on GitHub, GitLab, and BitBucket
+GitHub:
+GitHub is a web-based platform hosting Git repositories, offering features like issue tracking, pull requests, and actions for continuous integration.
+
+GitLab:
+GitLab, another web-based Git repository manager, provides integrated CI/CD, a container registry, and collaboration tools. It is available as both a cloud-based service and a self-hosted solution.
+
+BitBucket:
+BitBucket, by Atlassian, is a Git repository management solution supporting Git and Mercurial. It includes features such as pull requests, pipelines, and integrations with other Atlassian tools.
+
+Industrial Practices of Using Git
+Branching Strategy: Implement a branching strategy (e.g., Gitflow) to organize and manage feature development, releases, and hotfixes.
+
+Commit Messages: Craft clear and descriptive commit messages to effectively communicate the purpose of changes.
+
+Pull Request Reviews: Conduct code reviews through pull requests to ensure code quality and foster knowledge sharing among team members.
+
+Cloning a Repo to Local
+git clone <repository_url>
+
+Resources
+GitHub Guides: https://github.com/git-guides
+GitLab Documentation: https://docs.github.com/en.
+BitBucket Documentation: https://bitbucket.org/product/guides
